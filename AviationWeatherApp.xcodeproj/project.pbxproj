@@ -11,7 +11,6 @@
 		BDF99B0A2E8C15B900391C27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF99B092E8C15B900391C27 /* ContentView.swift */; };
 		BDF99B0C2E8C15BA00391C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF99B0B2E8C15BA00391C27 /* Assets.xcassets */; };
 		BDF99B0F2E8C15BA00391C27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF99B0E2E8C15BA00391C27 /* Preview Assets.xcassets */; };
-		BDF99B112E8C15BA00391C27 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF99B102E8C15BA00391C27 /* Persistence.swift */; };
 		BDF99B142E8C15BA00391C27 /* AviationWeatherApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDF99B122E8C15BA00391C27 /* AviationWeatherApp.xcdatamodeld */; };
 		BDF99B1E2E8C15BB00391C27 /* AviationWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF99B1D2E8C15BB00391C27 /* AviationWeatherAppTests.swift */; };
 		BDF99B282E8C15BB00391C27 /* AviationWeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF99B272E8C15BB00391C27 /* AviationWeatherAppUITests.swift */; };
@@ -41,7 +40,6 @@
 		BDF99B092E8C15B900391C27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDF99B0B2E8C15BA00391C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDF99B0E2E8C15BA00391C27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BDF99B102E8C15BA00391C27 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		BDF99B132E8C15BA00391C27 /* AviationWeatherApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AviationWeatherApp.xcdatamodel; sourceTree = "<group>"; };
 		BDF99B192E8C15BB00391C27 /* AviationWeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AviationWeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF99B1D2E8C15BB00391C27 /* AviationWeatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviationWeatherAppTests.swift; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 				BDF99B072E8C15B900391C27 /* AviationWeatherAppApp.swift */,
 				BDF99B092E8C15B900391C27 /* ContentView.swift */,
 				BDF99B0B2E8C15BA00391C27 /* Assets.xcassets */,
-				BDF99B102E8C15BA00391C27 /* Persistence.swift */,
 				BDF99B122E8C15BA00391C27 /* AviationWeatherApp.xcdatamodeld */,
 				BDF99B0D2E8C15BA00391C27 /* Preview Content */,
 			);
@@ -263,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF99B112E8C15BA00391C27 /* Persistence.swift in Sources */,
 				BDF99B0A2E8C15B900391C27 /* ContentView.swift in Sources */,
 				BDF99B082E8C15B900391C27 /* AviationWeatherAppApp.swift in Sources */,
 				BDF99B142E8C15BA00391C27 /* AviationWeatherApp.xcdatamodeld in Sources */,

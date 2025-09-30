@@ -9,12 +9,12 @@ import SwiftUI
 
 @main
 struct AviationWeatherAppApp: App {
-    let persistenceController = PersistenceController.shared
+    let persistence = PersistenceManager.shared
 
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environment(\.managedObjectContext,persistence.container.viewContext )
         }
     }
 }
